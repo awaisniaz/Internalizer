@@ -21,12 +21,12 @@ function activate(context) {
 		// The code you place here will be executed every time your command is executed
 
 		// Display a message box to the user
-		vscode.window.showInformationMessage('Hello World from Internalizer!');
+		vscode.window.showInformationMessage('WellCome to  Internalizer!');
 	});
 
 	context.subscriptions.push(disposable);
 }
-exports.activate = activate;
+
 
 // this method is called when your extension is deactivated
 function deactivate() {}
